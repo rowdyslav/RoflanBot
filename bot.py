@@ -12,6 +12,7 @@ client = commands.Bot(command_prefix='rdy.', intents=discord.Intents.all())
 rowdy = client.get_user(422102971904425984)
 logchannel = client.get_channel(1070014822034444300)
 
+
 async def load():
     for filename in os.listdir('./cogs'):
         if filename.endswith('.py'):
