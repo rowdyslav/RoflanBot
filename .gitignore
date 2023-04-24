@@ -1,0 +1,13 @@
+*
+
+
+!.gitignore
+!bot.py
+!datetime_funcs.py
+!webserver.py
+!*/cogs/*
+!*/texts/*
+!README.md
+
+cogs/__pycache__/*
+cogs/__pycache__/*
